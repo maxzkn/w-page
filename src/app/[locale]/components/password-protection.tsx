@@ -11,19 +11,21 @@ interface PasswordProtectionProps {
 export function PasswordProtection({ children, locale }: PasswordProtectionProps) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    validateSession();
+    setIsClient(true);
+
+    // Check if we're on localhost
+    if (window.location.hostname === 'localhost') {
+      setIsAuthenticated(true);
+      setIsLoading(false);
+    } else {
+      validateSession();
+    }
   }, []);
 
   const validateSession = async () => {
-    // Skip authentication in development mode (localhost)
-    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-      setIsAuthenticated(true);
-      setIsLoading(false);
-      return;
-    }
-
     try {
       const sessionToken = localStorage.getItem('wedding-session-token');
       const sessionExpires = localStorage.getItem('wedding-session-expires');
@@ -74,6 +76,17 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
   const handleLoginSuccess = () => {
     setIsAuthenticated(true);
   };
+
+  // Show loading state during initial client-side check
+  if (!isClient || isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-black-600 mx-auto"></div>
+        </div>
+      </div>
+    );
+  }
 
   if (!isAuthenticated) {
     return <Login locale={locale} onLoginSuccess={handleLoginSuccess} />;

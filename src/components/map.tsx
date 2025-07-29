@@ -23,7 +23,7 @@ const defaultMapOptions = {
 };
 
 // Define a list of libraries to load from the Google Maps API
-const libraries: Libraries = ['places', 'drawing', 'geometry'];
+const libraries: Libraries = ['places'];
 
 const MapComponent = () => {
   const [isVisible, setIsVisible] = useState(false);
