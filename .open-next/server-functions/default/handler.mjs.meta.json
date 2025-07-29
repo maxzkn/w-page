@@ -4002,23 +4002,23 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-      "bytes": 11113,
+    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
+      "bytes": 5414,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 7937,
+    ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
+      "bytes": 6488,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js": {
-      "bytes": 11189,
+      "bytes": 6564,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-      "bytes": 22841,
+      "bytes": 22788,
       "imports": [
         {
           "path": "fs",
@@ -4036,14 +4036,14 @@
           "original": "../shared/lib/deep-freeze"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js",
@@ -4096,7 +4096,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/985.js": {
-      "bytes": 227104,
+      "bytes": 225011,
       "imports": [],
       "format": "cjs"
     },
@@ -4630,12 +4630,17 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-      "bytes": 264842,
+      "bytes": 192371,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
           "kind": "require-call",
           "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": "@emotion/is-prop-valid",
+          "kind": "require-call",
+          "external": true
         },
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
@@ -4649,11 +4654,6 @@
         },
         {
           "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "@emotion/is-prop-valid",
           "kind": "require-call",
           "external": true
         },
@@ -7095,12 +7095,12 @@
           "external": true
         },
         {
-          "path": "path",
+          "path": "@emotion/is-prop-valid",
           "kind": "require-call",
           "external": true
         },
         {
-          "path": "@emotion/is-prop-valid",
+          "path": "path",
           "kind": "require-call",
           "external": true
         },
@@ -8147,17 +8147,17 @@
         ".open-next/server-functions/default/node_modules/next/dist/shared/lib/deep-freeze.js": {
           "bytesInOutput": 590
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-          "bytesInOutput": 10301
-        },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 7135
+          "bytesInOutput": 4981
+        },
+        ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
+          "bytesInOutput": 6047
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js": {
-          "bytesInOutput": 10386
+          "bytesInOutput": 6131
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-          "bytesInOutput": 15949
+          "bytesInOutput": 15903
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 740
@@ -8178,7 +8178,7 @@
           "bytesInOutput": 293997
         },
         ".open-next/server-functions/default/.next/server/chunks/985.js": {
-          "bytesInOutput": 240960
+          "bytesInOutput": 237682
         },
         ".open-next/server-functions/default/.next/server/chunks/99.js": {
           "bytesInOutput": 20606
@@ -8256,7 +8256,7 @@
           "bytesInOutput": 5516
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-          "bytesInOutput": 285837
+          "bytesInOutput": 210183
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
           "bytesInOutput": 10704
@@ -8541,7 +8541,7 @@
           "bytesInOutput": 51477
         }
       },
-      "bytes": 6393942
+      "bytes": 6304301
     }
   }
 }

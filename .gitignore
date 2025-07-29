@@ -24,6 +24,8 @@
 .DS_Store
 *.pem
 .vscode
+.open-next
+.wrangler
 
 # debug
 npm-debug.log*
