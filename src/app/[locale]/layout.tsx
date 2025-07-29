@@ -22,7 +22,7 @@ export function generateStaticParams(): { locale: string }[] {
   return routing.locales.map((locale: string) => ({ locale }));
 }
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
   params,
 }: {
