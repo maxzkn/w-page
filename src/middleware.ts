@@ -3,10 +3,9 @@ import { routing } from './i18n/routing';
 
 export default createMiddleware({
   ...routing,
-  // Always redirect to default locale when no locale is specified
   localePrefix: 'always',
   defaultLocale: 'en',
-  // Ensure root URL redirects to default locale
+  // Ensure root redirects to default locale
   pathnames: {
     '/': '/en',
   },
