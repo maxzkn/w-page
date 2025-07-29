@@ -26,7 +26,8 @@
         "title": "Vestuvių vakarėlis",
         "location": "VillaTop",
         "address1": "Skautų st. 15",
-        "address2": "Čekoniškės, Lietuva"
+        "address2": "Čekoniškės, Lietuva",
+        "showLocationButtonTitle": "Rodyti vietą žemėlapyje"
       }
     },
     "weddingGifts": {

@@ -10,6 +10,7 @@ import { WeddingGifts } from './components/wedding-gifts';
 import { Footer } from './components/footer';
 import { Plans } from './components/plans';
 import { WeddingGallery } from './components/wedding-gallery';
+import { MapComponent } from '@/components/map';
 
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -25,6 +26,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
         <Plans />
         <FAQ />
         <WeddingGallery />
+        <MapComponent />
         <Footer />
       </main>
     </>

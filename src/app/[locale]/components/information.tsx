@@ -2,6 +2,7 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export const Information = () => {
   const t = useTranslations('Home');
@@ -34,6 +35,16 @@ export const Information = () => {
         <p>{t('information.party.location')}</p>
         <p>{t('information.party.address1')}</p>
         <p>{t('information.party.address2')}</p>
+        <Link
+          href="#map"
+          className="text-main border  border-white  bg-black text-white hover:bg-white hover:text-black transition px-3 py-1"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('map')?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
+          {t('information.party.showLocationButtonTitle')}
+        </Link>
       </div>
     </motion.div>
   );

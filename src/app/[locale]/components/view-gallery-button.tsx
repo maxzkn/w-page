@@ -1,17 +1,19 @@
 'use client';
+import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 
 export const ViewGalleryButton = ({ className }: { className: string }) => {
   const t = useTranslations('Home');
-  const handleClick = () => {
-    const el = document.getElementById('wedding-gallery');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
   return (
-    <button type="button" className={className} onClick={handleClick}>
+    <Link
+      href="#map"
+      className={className}
+      onClick={(e) => {
+        e.preventDefault();
+        document.getElementById('wedding-gallery')?.scrollIntoView({ behavior: 'smooth' });
+      }}
+    >
       {t('gallery.button')}
-    </button>
+    </Link>
   );
 };

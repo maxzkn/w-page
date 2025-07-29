@@ -26,7 +26,8 @@
         "title": "The Wedding Party",
         "location": "VillaTop",
         "address1": "Skautu st. 15",
-        "address2": "Cekoniskes, Lithuania"
+        "address2": "Cekoniskes, Lithuania",
+        "showLocationButtonTitle": "Show location on map"
       }
     },
     "weddingGifts": {

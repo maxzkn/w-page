@@ -26,7 +26,8 @@
         "title": "Свадебная вечеринка",
         "location": "VillaTop",
         "address1": "ул. Скауту 15",
-        "address2": "Чеконишки, Литва"
+        "address2": "Чеконишки, Литва",
+        "showLocationButtonTitle": "Показать на карте"
       }
     },
     "weddingGifts": {
