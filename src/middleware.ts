@@ -5,10 +5,6 @@ export default createMiddleware({
   ...routing,
   localePrefix: 'always',
   defaultLocale: 'en',
-  // Ensure root redirects to default locale
-  pathnames: {
-    '/': '/en',
-  },
 });
 
 export const config = {
