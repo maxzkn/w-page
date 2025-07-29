@@ -1,0 +1,32 @@
+import React from 'react';
+import { use } from 'react';
+import { Hero } from './components/hero';
+import { OurWedding } from './components/our-wedding';
+import { FAQ } from './components/faq';
+import { Information } from './components/information';
+import { FlowersBanner } from './components/flowers-banner';
+import { OurStory } from './components/our-story';
+import { WeddingGifts } from './components/wedding-gifts';
+import { Footer } from './components/footer';
+import { Plans } from './components/plans';
+import { WeddingGallery } from './components/wedding-gallery';
+
+export default function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = use(params);
+  return (
+    <>
+      <Hero locale={locale} />
+      <main className="custom-container">
+        <OurWedding />
+        <Information />
+        <WeddingGifts />
+        <FlowersBanner />
+        <OurStory />
+        <Plans />
+        <FAQ />
+        <WeddingGallery />
+        <Footer />
+      </main>
+    </>
+  );
+}
