@@ -5,6 +5,3 @@
   [assets]
   directory = ".open-next/assets"
   binding = "ASSETS"
-  routes = [
-  { pattern = "shop.example.com", custom_domain = true }
-]
