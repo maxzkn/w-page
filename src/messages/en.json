@@ -1,4 +1,14 @@
 {
+  "Login": {
+    "title": "Welcome to Our Wedding",
+    "subtitle": "Please enter the password to access our special day",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter password",
+    "submit": "Enter",
+    "loading": "Checking...",
+    "error": "Incorrect password. Please try again.",
+    "networkError": "Network error. Please check your connection and try again."
+  },
   "Home": {
     "ourWedding": {
       "title": "We are getting married",

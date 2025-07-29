@@ -11,24 +11,27 @@ import { Footer } from './components/footer';
 import { Plans } from './components/plans';
 import { WeddingGallery } from './components/wedding-gallery';
 import { MapComponent } from '@/components/map';
+import { PasswordProtection } from './components/password-protection';
 
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
   return (
-    <>
-      <Hero locale={locale} />
-      {/* <main className="custom-container">
-        <OurWedding />
-        <Information />
-        <WeddingGifts />
-        <FlowersBanner />
-        <OurStory />
-        <Plans />
-        <FAQ />
-        <WeddingGallery />
-        <MapComponent />
-        <Footer />
-      </main> */}
-    </>
+    <PasswordProtection>
+      <>
+        <Hero locale={locale} />
+        {/* <main className="custom-container">
+          <OurWedding />
+          <Information />
+          <WeddingGifts />
+          <FlowersBanner />
+          <OurStory />
+          <Plans />
+          <FAQ />
+          <WeddingGallery />
+          <MapComponent />
+          <Footer />
+        </main> */}
+      </>
+    </PasswordProtection>
   );
 }

@@ -1,4 +1,14 @@
 {
+  "Login": {
+    "title": "Sveiki atvykę į mūsų vestuves",
+    "subtitle": "Prašome įvesti slaptažodį, kad galėtumėte pasiekti mūsų ypatingą dieną",
+    "passwordLabel": "Slaptažodis",
+    "passwordPlaceholder": "Įveskite slaptažodį",
+    "submit": "Įeiti",
+    "loading": "Tikriname...",
+    "error": "Neteisingas slaptažodis. Bandykite dar kartą.",
+    "networkError": "Tinklo klaida. Patikrinkite ryšį ir bandykite dar kartą."
+  },
   "Home": {
     "ourWedding": {
       "title": "Mes tuokiamės",

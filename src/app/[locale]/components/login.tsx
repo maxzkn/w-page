@@ -1,0 +1,84 @@
+'use client';
+
+import React, { useState } from 'react';
+import { useTranslations } from 'next-intl';
+
+interface LoginProps {
+  onLoginSuccess: () => void;
+}
+
+export function Login({ onLoginSuccess }: LoginProps) {
+  const [password, setPassword] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+  const t = useTranslations('Login');
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setError('');
+
+    try {
+      const response = await fetch('https://password-protection.maks-zyk.workers.dev', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ password }),
+      });
+
+      if (response.ok) {
+        localStorage.setItem('wedding-access', 'true');
+        onLoginSuccess();
+      } else {
+        setError(t('error'));
+      }
+    } catch (err) {
+      setError(t('networkError'));
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-50 to-pink-100">
+      <div className="max-w-md w-full space-y-8 p-8">
+        <div className="text-center">
+          <h2 className="text-3xl font-cinzel text-gray-900 mb-2">{t('title')}</h2>
+          <p className="text-gray-600 font-cormorant-garamond">{t('subtitle')}</p>
+        </div>
+
+        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="password" className="sr-only">
+              {t('passwordLabel')}
+            </label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              required
+              className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-rose-500 focus:border-rose-500 focus:z-10 sm:text-sm"
+              placeholder={t('passwordPlaceholder')}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              disabled={isLoading}
+            />
+          </div>
+
+          {error && <div className="text-red-600 text-sm text-center">{error}</div>}
+
+          <div>
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-lg text-white bg-rose-600 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              {isLoading ? t('loading') : t('submit')}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
