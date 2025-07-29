@@ -21,7 +21,7 @@ export function Login({ onLoginSuccess, locale }: LoginProps) {
     setError('');
 
     try {
-      const response = await fetch(`https://password-protection.maks-zyk.workers.dev`, {
+      const response = await fetch('https://password-protection.maks-zyk.workers.dev', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

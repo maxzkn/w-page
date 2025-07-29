@@ -17,7 +17,7 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
     setIsClient(true);
 
     // Check if we're on localhost
-    if (window.location.hostname === 'localhost') {
+    if (typeof window !== 'undefined' && window.location.hostname === 'loclhost') {
       setIsAuthenticated(true);
       setIsLoading(false);
     } else {
@@ -51,7 +51,7 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
 
       // Validate session with server
       const response = await fetch(
-        `https://password-protection.maks-zyk.workers.dev/validate-session`,
+        'https://password-protection.maks-zyk.workers.dev/validate-session',
         {
           method: 'GET',
           headers: {
