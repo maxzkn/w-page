@@ -2,7 +2,13 @@
 import { ViewGalleryButton } from './view-gallery-button';
 import { motion } from 'framer-motion';
 
-function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
+export function LanguageSwitcher({
+  currentLocale,
+  invert,
+}: {
+  currentLocale: string;
+  invert?: boolean;
+}) {
   const locales = [
     { code: 'en', label: 'EN' },
     { code: 'ru', label: 'RU' },
@@ -16,8 +22,12 @@ function LanguageSwitcher({ currentLocale }: { currentLocale: string }) {
           href={`/${code}`}
           className={`px-3 py-1 rounded-full text-sm font-bold transition-colors ${
             currentLocale === code
-              ? 'bg-white text-black'
-              : 'bg-black/50 text-white hover:bg-white hover:text-black'
+              ? invert
+                ? 'bg-black text-white'
+                : 'bg-white text-black'
+              : invert
+                ? 'hover:bg-white hover:text-black'
+                : 'hover:bg-black hover:text-white'
           }`}
         >
           {label}

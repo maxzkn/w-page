@@ -16,10 +16,10 @@ import { PasswordProtection } from './components/password-protection';
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
   return (
-    <PasswordProtection>
+    <PasswordProtection locale={locale}>
       <>
         <Hero locale={locale} />
-        {/* <main className="custom-container">
+        <main className="custom-container">
           <OurWedding />
           <Information />
           <WeddingGifts />
@@ -30,7 +30,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
           <WeddingGallery />
           <MapComponent />
           <Footer />
-        </main> */}
+        </main>
       </>
     </PasswordProtection>
   );

@@ -6,7 +6,6 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing } from '../../i18n/routing';
 import '@/app/globals.css';
 import { use } from 'react';
-import { MapsProvider } from '../providers/map-provider';
 
 const cinzel = Cinzel({
   variable: '--font-cinzel',
@@ -41,9 +40,7 @@ export default function LocaleLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${cormorantGaramond.variable} ${cinzel.variable} antialiased`}>
-        <NextIntlClientProvider>
-          <MapsProvider>{children}</MapsProvider>
-        </NextIntlClientProvider>
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
