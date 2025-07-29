@@ -20,7 +20,7 @@ export function LanguageSwitcher({
       {locales.map(({ code, label }) => (
         <Link
           key={code}
-          href={`/${code}`}
+          href={`${code}`}
           className={`px-3 py-1 rounded-full text-sm font-bold transition-colors ${
             currentLocale === code
               ? invert
@@ -44,7 +44,7 @@ export const HeroNavigation = ({ locale }: { locale: string }) => {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="absolute top-8 right-10 z-20 flex items-center gap-3"
+      className="absolute top-8 sm:right-10 z-20 flex items-center gap-3"
     >
       <ViewGalleryButton className="inline-block px-1 py-1 text-main text-white border-b border-transparent hover:border-white transition uppercase" />
       <LanguageSwitcher currentLocale={locale} />
