@@ -7,12 +7,12 @@ export const FlowersBanner = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    setIsMobile(
-      /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-    );
-  }, []);
+  // const [isMobile, setIsMobile] = useState(false);
+  // useEffect(() => {
+  //   setIsMobile(
+  //     /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+  //   );
+  // }, []);
 
   return (
     <motion.div
@@ -27,7 +27,7 @@ export const FlowersBanner = () => {
         loop
         muted
         playsInline
-        controls={isMobile}
+        // controls={isMobile}
         className="absolute inset-0 w-full h-full object-cover z-0 grayscale"
         poster="/flowers-banner.webp"
       >

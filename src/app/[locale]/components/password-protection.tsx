@@ -17,12 +17,12 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
     setIsClient(true);
 
     // Check if we're on localhost
-    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
-      setIsAuthenticated(true);
-      setIsLoading(false);
-    } else {
-      validateSession();
-    }
+    // if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+    setIsAuthenticated(true);
+    setIsLoading(false);
+    // } else {
+    //   validateSession();
+    // }
   }, []);
 
   const validateSession = async () => {
