@@ -21,7 +21,7 @@ export function Login({ onLoginSuccess, locale }: LoginProps) {
     setError('');
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_AUTH_API_DOMAIN}`, {
+      const response = await fetch(`https://password-protection.maks-zyk.workers.dev`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -78,7 +78,11 @@ export function Login({ onLoginSuccess, locale }: LoginProps) {
             />
           </div>
 
-          {error && <div className="text-red-600 text-sm text-center">{error}</div>}
+          {error && (
+            <div className="text-red-600 text-main font-cormorant-garamond text-center">
+              {error}
+            </div>
+          )}
 
           <div>
             <button

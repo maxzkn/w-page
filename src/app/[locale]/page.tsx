@@ -17,21 +17,19 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
   const { locale } = use(params);
   return (
     <PasswordProtection locale={locale}>
-      <>
-        <Hero locale={locale} />
-        <main className="custom-container">
-          <OurWedding />
-          <Information />
-          <WeddingGifts />
-          <FlowersBanner />
-          <OurStory />
-          <Plans />
-          <FAQ />
-          <WeddingGallery />
-          <MapComponent />
-          <Footer />
-        </main>
-      </>
+      <Hero locale={locale} />
+      <main className="custom-container">
+        <OurWedding />
+        <Information />
+        <WeddingGifts />
+        <FlowersBanner />
+        <OurStory />
+        <Plans />
+        <FAQ />
+        <WeddingGallery />
+        <MapComponent />
+        <Footer />
+      </main>
     </PasswordProtection>
   );
 }

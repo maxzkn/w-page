@@ -21,14 +21,6 @@
         "nxtPlocale": "nxtPlocale"
       },
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/[locale]/gallery",
-      "regex": "^/([^/]+?)/gallery(?:/)?$",
-      "routeKeys": {
-        "nxtPlocale": "nxtPlocale"
-      },
-      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/gallery(?:/)?$"
     }
   ],
   "staticRoutes": [

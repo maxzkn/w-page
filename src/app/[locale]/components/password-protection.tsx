@@ -50,12 +50,15 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
       }
 
       // Validate session with server
-      const response = await fetch(`${process.env.NEXT_PUBLIC_AUTH_API_DOMAIN}/validate-session`, {
-        method: 'GET',
-        headers: {
-          Authorization: `Bearer ${sessionToken}`,
-        },
-      });
+      const response = await fetch(
+        `https://password-protection.maks-zyk.workers.dev/validate-session`,
+        {
+          method: 'GET',
+          headers: {
+            Authorization: `Bearer ${sessionToken}`,
+          },
+        }
+      );
 
       if (response.ok) {
         setIsAuthenticated(true);

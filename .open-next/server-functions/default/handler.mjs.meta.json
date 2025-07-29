@@ -4003,22 +4003,17 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 5414,
+      "bytes": 9066,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-      "bytes": 6488,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js": {
-      "bytes": 6564,
+      "bytes": 12513,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-      "bytes": 22788,
+      "bytes": 19350,
       "imports": [
         {
           "path": "fs",
@@ -4038,17 +4033,12 @@
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -4081,32 +4071,27 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/626.js": {
-      "bytes": 5304,
+      "bytes": 5639,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/789.js": {
-      "bytes": 5556,
+      "bytes": 5873,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/825.js": {
-      "bytes": 283158,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/chunks/985.js": {
-      "bytes": 225011,
+      "bytes": 283294,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/99.js": {
-      "bytes": 8156,
+      "bytes": 8591,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-      "bytes": 1871,
+      "bytes": 1816,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/548.js",
@@ -4127,11 +4112,6 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/825.js",
           "kind": "require-call",
           "original": "./chunks/825.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/985.js",
-          "kind": "require-call",
-          "original": "./chunks/985.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/99.js",
@@ -4548,7 +4528,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-      "bytes": 3123,
+      "bytes": 3121,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -4588,8 +4568,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page.js": {
-      "bytes": 5349,
+    ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
+      "bytes": 498198,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -4610,50 +4590,9 @@
           "path": "path",
           "kind": "require-call",
           "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../../../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-      "bytes": 192371,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
         },
         {
           "path": "@emotion/is-prop-valid",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/after-task-async-storage.external.js"
-        },
-        {
-          "path": "path",
           "kind": "require-call",
           "external": true
         },
@@ -4676,7 +4615,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 13157,
+      "bytes": 13017,
       "imports": [
         {
           "path": "path",
@@ -4726,32 +4665,27 @@
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_document.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page.js",
-          "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/gallery/page.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/app/_not-found/page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/page.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/app/[locale]/page.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/app/[locale]/page.js"
         }
       ],
       "format": "cjs"
@@ -5074,22 +5008,22 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/lib/module-loader/node-module-loader.js": {
-      "bytes": 884,
+      "bytes": 935,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_app.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_app.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_app.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_error.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_error.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_error.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/pages/_document.js",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/.next/server/pages/_document.js"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/.next/server/pages/_document.js"
         }
       ],
       "format": "cjs"
@@ -6294,7 +6228,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/next-server.js": {
-      "bytes": 52604,
+      "bytes": 52638,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/server/node-environment.js",
@@ -6599,12 +6533,12 @@
         {
           "path": ".open-next/server-functions/default/composable-cache.cjs",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/composable-cache.cjs"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/composable-cache.cjs"
         },
         {
           "path": ".open-next/server-functions/default/cache.cjs",
           "kind": "require-call",
-          "original": "/Users/maxz/Documents/dev/w-page/.open-next/server-functions/default/cache.cjs"
+          "original": "/Users/maksim.zykin/Documents/dev/wedding-landing/.open-next/server-functions/default/cache.cjs"
         },
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/experimental/testmode/server.js",
@@ -6640,7 +6574,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 73841,
+      "bytes": 73657,
       "imports": [
         {
           "path": "node:module",
@@ -7096,11 +7030,6 @@
         },
         {
           "path": "@emotion/is-prop-valid",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": "path",
           "kind": "require-call",
           "external": true
         },
@@ -8148,16 +8077,13 @@
           "bytesInOutput": 590
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 4981
+          "bytesInOutput": 8189
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/page_client-reference-manifest.js": {
-          "bytesInOutput": 6047
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page_client-reference-manifest.js": {
-          "bytesInOutput": 6131
+          "bytesInOutput": 11628
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
-          "bytesInOutput": 15903
+          "bytesInOutput": 13653
         },
         ".open-next/server-functions/default/node_modules/react/cjs/react-jsx-runtime.production.js": {
           "bytesInOutput": 740
@@ -8169,22 +8095,19 @@
           "bytesInOutput": 71461
         },
         ".open-next/server-functions/default/.next/server/chunks/626.js": {
-          "bytesInOutput": 6408
+          "bytesInOutput": 6807
         },
         ".open-next/server-functions/default/.next/server/chunks/789.js": {
-          "bytesInOutput": 5650
+          "bytesInOutput": 5967
         },
         ".open-next/server-functions/default/.next/server/chunks/825.js": {
-          "bytesInOutput": 293997
-        },
-        ".open-next/server-functions/default/.next/server/chunks/985.js": {
-          "bytesInOutput": 237682
+          "bytesInOutput": 294133
         },
         ".open-next/server-functions/default/.next/server/chunks/99.js": {
-          "bytesInOutput": 20606
+          "bytesInOutput": 21597
         },
         ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-          "bytesInOutput": 1881
+          "bytesInOutput": 1849
         },
         ".open-next/server-functions/default/.next/server/pages/_app.js": {
           "bytesInOutput": 3577
@@ -8250,16 +8173,13 @@
           "bytesInOutput": 518695
         },
         ".open-next/server-functions/default/.next/server/app/_not-found/page.js": {
-          "bytesInOutput": 3174
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/gallery/page.js": {
-          "bytesInOutput": 5516
+          "bytesInOutput": 3172
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/page.js": {
-          "bytesInOutput": 210183
+          "bytesInOutput": 533348
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-          "bytesInOutput": 10704
+          "bytesInOutput": 10608
         },
         ".open-next/server-functions/default/node_modules/next/dist/lib/interop-default.js": {
           "bytesInOutput": 363
@@ -8538,10 +8458,10 @@
           "bytesInOutput": 4977
         },
         ".open-next/server-functions/default/index.mjs": {
-          "bytesInOutput": 51477
+          "bytesInOutput": 51318
         }
       },
-      "bytes": 6304301
+      "bytes": 6386230
     }
   }
 }

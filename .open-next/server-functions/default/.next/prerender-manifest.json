@@ -1,78 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/en/gallery": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[locale]/gallery",
-      "dataRoute": "/en/gallery.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/lt/gallery": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[locale]/gallery",
-      "dataRoute": "/lt/gallery.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/ru/gallery": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/[locale]/gallery",
-      "dataRoute": "/ru/gallery.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/en": {
       "experimentalBypassFor": [
         {
@@ -147,31 +75,6 @@
     }
   },
   "dynamicRoutes": {
-    "/[locale]/gallery": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "routeRegex": "^/([^/]+?)/gallery(?:/)?$",
-      "dataRoute": "/[locale]/gallery.rsc",
-      "fallback": null,
-      "dataRouteRegex": "^/([^/]+?)/gallery\\.rsc$",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/[locale]": {
       "experimentalBypassFor": [
         {
@@ -200,8 +103,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "87793e411bc17bb24edf38a82d6cf01c",
-    "previewModeSigningKey": "27a4a2d78a9a209c5370c66995bc05f2c7e685d6721b765ac63945b73a1391d2",
-    "previewModeEncryptionKey": "2ef70dcc601ae7f60802e7db6490dd63d2bc7d37641e5b72aa4967cad9be78c6"
+    "previewModeId": "9023bdf7f9cb9d5495aa4a255c89135d",
+    "previewModeSigningKey": "5a72fac374d6da2fe14830cb6d8c414c3878ac1243d6814f6ad9b7593bb90847",
+    "previewModeEncryptionKey": "eabf892917e23ac5628b5f82dcc67500f7b69ab5b7af277e4b5253261502af85"
   }
 }
