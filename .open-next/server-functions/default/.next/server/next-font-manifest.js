@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/maxz/Documents/dev/w-page/src/app/[locale]/layout":["static/media/37417c97fb0b4bc9-s.p.woff2","static/media/91884a277259e9f2-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

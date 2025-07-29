@@ -16,6 +16,7 @@ const cinzel = Cinzel({
 const cormorantGaramond = Cormorant_Garamond({
   variable: '--font-cormorant-garamond',
   subsets: ['latin'],
+  weight: '300',
 });
 
 export function generateStaticParams(): { locale: string }[] {

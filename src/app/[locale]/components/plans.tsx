@@ -56,7 +56,7 @@ export const Plans = () => {
           <div className="text-main">{t('plans.cake.text')}</div>
         </div>
         {/* Row 5 */}
-        <div className="text-right">01:00</div>
+        <div className="text-right">00:00</div>
         {/* Empty cell for divider */}
         <div className="text-left">
           <div className="font-bold">{t('plans.partyClose.title')}</div>

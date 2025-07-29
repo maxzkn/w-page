@@ -88,12 +88,12 @@
     "faq": {
       "title": "Dažniausiai užduodami klausimai",
       "question1": {
-        "title": "Ar bus transportas iš ceremonijos į vakarėlį? O po vakarėlio?",
+        "title": "Ar bus transportas iš ceremonijos į vakarėlį?",
         "answer": "Taip! Viskuo pasirūpinta."
       },
       "question2": {
         "title": "Koks aprangos kodas?",
-        "answer": "Oficiali / kokteilinė apranga. Taip pat pasiimkite ką nors patogaus, jei planuojate mėgautis pirtimi ar sūkurine vonia po vakarėlio."
+        "answer": "Oficiali / kokteilinė apranga. Taip pat pasiimkite ką nors patogaus, jei planuojate mėgautis pirtimi ar sūkurine vonia sekantį rytą."
       },
       "question3": {
         "title": "Ar vakarėlis vyks lauke?",
@@ -108,12 +108,12 @@
         "answer": "Taip, galite fiksuoti visas laimingas akimirkas. Taip pat bus profesionalus fotografas, o nuotraukomis pasidalinsime po vestuvių."
       },
       "question6": {
-        "title": "Ar bus vakarėlis po vakarėlio?",
-        "answer": "Taip! Po oficialios vakarienės ir torto svečiai galės mėgautis pirtimi ir sūkurine vonia, gėrimai bus visą laiką."
+        "title": "Ar bus vakarėlis...po vakarėlio?",
+        "answer": "Taip! Po oficialios vakarienės, torto ir šokių svečiai galės mėgautis pirtimi ir sūkurine vonia sekantį rytą."
       },
       "question7": {
         "title": "Ar bus automobilių stovėjimo aikštelė?",
-        "answer": "Taip, bet vietų bus ribotai. Taip pat bus suteiktas transportas į ir iš vakarėlio vietos. Į ceremonijos vietą reikės atvykti patiems."
+        "answer": "Taip."
       },
       "question8": {
         "title": "Ar bus vegetariškų patiekalų?",

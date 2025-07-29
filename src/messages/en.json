@@ -88,12 +88,12 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "question1": {
-        "title": "Will there be transportation from the wedding ceremony to the party? And after the party?",
+        "title": "Will there be transportation from the wedding ceremony to the party?",
         "answer": "Yes! We've got you covered."
       },
       "question2": {
         "title": "What is the dress code?",
-        "answer": "Formal / Cocktail Attire. But bring something comfortable if you're planning to enjoy the sauna and jacuzzi after the party."
+        "answer": "Formal / Cocktail Attire. But bring something comfortable if you're planning to stay for the sauna and jacuzzi the day after."
       },
       "question3": {
         "title": "Will the wedding party be outside?",
@@ -108,12 +108,12 @@
         "answer": "Yes, you’re welcome to capture all happy moments. However, a professional photographer will be on site and we will be sharing all photos with you following our wedding."
       },
       "question6": {
-        "title": "Is there a party....after the party?",
-        "answer": "Absolutely! Following the formal dinner and cake, guests will have an option to enjoy the sauna and jacuzzi, with drinks available throughout."
+        "title": "Is there a party...after the party?",
+        "answer": "Absolutely! Following the formal dinner, cake and dancing, guests will have an option to enjoy the sauna and jacuzzi the next morning."
       },
       "question7": {
         "title": "Will there be parking available?",
-        "answer": "Yes, but space is limited. There will also be transportation provided to and from the party venue. You will just need to arrive at the ceremony location yourself."
+        "answer": "Yes."
       },
       "question8": {
         "title": "Will there be vegetarian options?",
@@ -121,7 +121,7 @@
       },
       "question9": {
         "title": "Where do we stay in Vilnius?",
-        "answer": "There are plenty of lovely hotels and Airbnb options, including near the ceremony locations. Drop us a line if you need recommendations."
+        "answer": "There are plenty of lovely hotels and Airbnb options, including near the ceremony location. Drop us a line if you need recommendations."
       }
     }
   }
