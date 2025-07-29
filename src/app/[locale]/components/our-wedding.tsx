@@ -13,7 +13,7 @@ export const OurWedding = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="max-w-2xl mx-auto pt-10 pb-20 md:pt-20 md:pb-40 px-4 sm:px-0 text-center"
+      className="max-w-2xl mx-auto py-20 md:py-40 px-4 sm:px-0 text-center"
     >
       <h2 className="text-headline md:text-banner mb-6 uppercase">{t('ourWedding.title')}</h2>
       <p className="text-lg font-secondary sm:text-main">{t('ourWedding.date')}</p>

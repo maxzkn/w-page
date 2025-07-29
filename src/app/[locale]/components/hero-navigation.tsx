@@ -1,7 +1,6 @@
 'use client';
 import { Link } from '@/i18n/navigation';
 import { ViewGalleryButton } from './view-gallery-button';
-import { motion } from 'framer-motion';
 
 export function LanguageSwitcher({
   currentLocale,
@@ -40,14 +39,9 @@ export function LanguageSwitcher({
 
 export const HeroNavigation = ({ locale }: { locale: string }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="absolute top-8 sm:right-10 z-20 flex items-center gap-3"
-    >
+    <div className="absolute top-8 sm:right-10 z-20 flex items-center gap-3">
       <ViewGalleryButton className="inline-block px-1 py-1 text-main text-white border-b border-transparent hover:border-white transition uppercase" />
       <LanguageSwitcher currentLocale={locale} />
-    </motion.div>
+    </div>
   );
 };
