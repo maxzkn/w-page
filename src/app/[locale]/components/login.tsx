@@ -52,7 +52,7 @@ export function Login({ onLoginSuccess, locale }: LoginProps) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 relative">
       <div className="absolute top-8 right-10 z-20">
-        <LanguageSwitcher currentLocale={locale} />
+        <LanguageSwitcher currentLocale={locale} invert />
       </div>
       <div className="max-w-md w-full space-y-8 p-8">
         <div className="text-center">

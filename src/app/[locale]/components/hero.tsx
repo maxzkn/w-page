@@ -1,12 +1,18 @@
+'use client';
 import { Countdown } from './countdown';
 import { HeroNavigation } from './hero-navigation';
 import { Logo } from './logo';
+import { useIsMobile } from '@/app/hooks/useIsMobile';
 
 export const Hero = ({ locale }: { locale: string }) => {
+  const isMobile = useIsMobile();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden mb-10 md:mb-20">
       <div
-        className="absolute inset-0 w-full h-full bg-fixed bg-cover bg-center lg:bg-auto lg:bg-[position:unset]"
+        className={`absolute inset-0 w-full h-full bg-cover bg-center ${
+          isMobile ? 'bg-scroll' : 'bg-fixed lg:bg-auto lg:bg-[position:unset]'
+        }`}
         style={{
           backgroundImage: 'url(/hero.webp)',
           filter: 'grayscale(1)',

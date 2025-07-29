@@ -1,4 +1,5 @@
 'use client';
+import { Link } from '@/i18n/navigation';
 import { ViewGalleryButton } from './view-gallery-button';
 import { motion } from 'framer-motion';
 
@@ -17,21 +18,21 @@ export function LanguageSwitcher({
   return (
     <div className="flex gap-2">
       {locales.map(({ code, label }) => (
-        <a
+        <Link
           key={code}
           href={`/${code}`}
           className={`px-3 py-1 rounded-full text-sm font-bold transition-colors ${
             currentLocale === code
               ? invert
-                ? 'bg-black text-white'
-                : 'bg-white text-black'
+                ? 'bg-white text-black border border-transparent'
+                : 'bg-white text-black border border-transparent'
               : invert
-                ? 'hover:bg-white hover:text-black'
-                : 'hover:bg-black hover:text-white'
+                ? 'text-black border border-transparent hover:border-black'
+                : 'text-white hover:border-white hover:border border border-transparent'
           }`}
         >
           {label}
-        </a>
+        </Link>
       ))}
     </div>
   );
