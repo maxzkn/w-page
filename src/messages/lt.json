@@ -36,47 +36,47 @@
       "party": {
         "title": "Vestuvių vakarėlis",
         "location": "VillaTop",
-        "address1": "Skautų st. 15",
+        "address1": "Skautų g. 15",
         "address2": "Čekoniškės, Lietuva",
         "showLocationButtonTitle": "Rodyti vietą žemėlapyje"
       }
     },
     "weddingGifts": {
       "title": "Vestuvių dovanos",
-      "text1": "Jūsų buvimas mūsų vestuvėse yra didžiausia dovana mums!",
+      "text1": "Jūsų dalyvavimas mūsų vestuvėse yra didžiausia dovana mums!",
       "text2": "Suprantame, kad gėlės yra tradicija, tačiau negalėsime pilnai pasidžiaugti jų grožiu ar jų išsaugoti.",
       "text3": "Jei visgi norite mus pasveikinti, būsime dėkingi už vokelį."
     },
     "gallery": {
       "button": "Vestuvių galerija",
-      "text": "Nuotraukos iš ceremonijos ir vakarėlio bus įkeltos čia, kai tik bus prieinamos!"
+      "text": "Nuotraukos iš ceremonijos ir vakarėlio bus įkeltos čia, kai tik bus paruoštos!"
     },
     "ourStory": {
       "title": "Mūsų istorija",
       "howWeMet": {
-        "title": "Kaip susipažinome",
-        "text": "Susipažinome mokykloje – jis buvo įsimylėjęs, bet labai drovus, ji – neįtikinta. Jis buvo atkaklus (ir šiek tiek įkyrus), kol ji galiausiai suprato, kodėl verta. Pasirodo, draugų zona turi slaptą išėjimą... ir jis veda į amžinybę."
+        "title": "Pradžia",
+        "text": "Susipažinome mokykloje – jis buvo įsimylėjęs, bet labai drovus, ji – neįtikinta. Jis buvo atkaklus (ir šiek tiek įkyrus), kol ji galiausiai suprato, kur šuo yra pakastas. Pasirodo, draugų zona turi slaptą išėjimą... ir jis veda į amžinybę."
       },
       "firstKiss": {
         "title": "Pirmasis bučinys",
-        "text": "Pirmasis bučinys nebuvo suplanuotas – jis įvyko stotelėje, kažkur tarp „iki pasimatymo“ ir kažko daugiau (bet neatskleisime visų detalių – kai kas geriau lieka ne internete!). Ji nuėjo, bet atsisuko ir pamatė jį šokinėjantį iš džiaugsmo. Jis tada atidarė mažą viskio buteliuką, kurį ji buvo padovanojusi gimtadieniui, ir atšventė didžiausią savo paauglystės akimirką. Tik jis, saulėlydis ir kažko ypatingo pradžia. Tikra kino scena."
+        "text": "Pirmasis bučinys nebuvo suplanuotas – jis įvyko stotelėje, kažkur tarp „iki pasimatymo“ ir kažko daugiau (bet neatskleisime visų detalių – kai kurie dalykai turi pasilikti už interneto ribų!). Ji nuėjo, bet atsisuko ir pamatė jį šokinėjantį iš džiaugsmo. Jis atidarė mažą viskio buteliuką, kurį ji buvo padovanojusi gimtadieniui, ir atšventė didžiausią savo paauglystės akimirką. Tik jis, saulėlydis ir kažko ypatingo pradžia. Tikra kino scena."
       },
       "proposal": {
         "title": "Piršlybos",
-        "text": "Ji nustebino jį gimtadienio kelione į Amsterdamą – ir kažkur tarp pyragėlių (daugiau niekada) ir tulpynų (praleista proga), jis nešiojosi žiedą, laukdamas tinkamo momento. Po šiek tiek nesėkmingos dienos tulpės atkrito. Kitą dieną jie vaikščiojo ir atsidūrė prie Magere Brug. Jis nervingai delsė, tada priklaupė ant kelio. Ji, nustebinta, taip pat priklaupė ir apkabino jį. Nė vienas neprisimena, ką jis sakė, tik kad ji tikrai pasakė „taip“. Tai buvo chaotiška, bet labai „mūsų“ akimirka. Ne tobula, bet jie turi visą gyvenimą, kad viską darytų nuostabiai kartu.",
-        "caption": "Piršlybos, Magere Brug, Amsterdamas, 16 m. gegužės 2022"
+        "text": "Ji nustebino jį gimtadienio kelione į Amsterdamą – ir kažkur tarp pyragėlių (daugiau niekada) ir tulpynų (praleista proga), jis nešiojosi žiedą, laukdamas tinkamo momento. Po nesėkmingos patirties su keksais, tulpės atkrito. Kitą dieną jie vaikščiojo ir atsidūrė prie Magere Brug. Jis nervingai delsė ant tilto, tada priklaupė ant kelio. Ji, nustebus, taip pat priklaupė ir apkabino jį. Nė vienas neprisimena, ką jis sakė, tik kad ji tikrai pasakė „taip“. Tai buvo chaotiška, bet akimirka jų stiliuje. Ne tobula, bet jie turi visą gyvenimą, kad viską darytų nuostabiai kartu.",
+        "caption": "Piršlybos, Magere Brug, Amsterdamas, Gegužės 16 d., 2022"
       }
     },
     "plans": {
       "title": "Ką jums suplanavome",
       "ceremony": {
         "title": "Ceremonija",
-        "text": "Po ceremonijos trumpas priėmimas prie rūmų įėjimo"
+        "text": "Po ceremonijos kviečiame trumpai šampano pertraukai (priklauso nuo oro)"
       },
       "photoshoot": {
         "title": "Vestuvių fotosesija",
-        "text1": "Linksma šventinė kelionė po miestą su šampanu ir fejerverkais",
-        "text2": "Turėsite galimybę pasidaryti nuotraukų įvairiose vietose"
+        "text1": "Linksma šventinė kelionė po miestą su šampanu",
+        "text2": "Turėsite galimybę pasidaryti nuotraukų grąžiausiose vietose"
       },
       "party": {
         "title": "Vestuvių vakarėlis",
@@ -86,13 +86,20 @@
       },
       "cake": {
         "title": "Vestuvių tortas",
-        "text": "Saldus akimirkos prisiminimas"
+        "text": "Saldaus gyvenimo pradžia"
       },
       "partyClose": {
         "title": "Oficiali vakarėlio pabaiga",
-        "text1": "Svečiai kviečiami pasilikti pirties ir sūkurinės vonios veiklai",
-        "text2": "Galimybė nakvoti vietoje",
-        "text3": "Norintiems grįžti namo bus suteiktas transportas (prašome iš anksto pranešti apie pageidavimą)"
+        "text1": "Šokiai ir gėrimai norintiems",
+        "text2": "Galimybė nakvoti sodyboje (prašome pranešti iš anksto) arba išvykti (taxi paslauga prieinama)"
+      },
+      "morningAfter": {
+        "title": "Sekantis rytas",
+        "text1": "Pusryčiai norintiems, pirtis ir sūkurinė vonia",
+        "text2": "Išvykusiems naktį yra galimybė sugrįžti atgal į sodybą ryte (prašome pranešti iš anksto)"
+      },
+      "departure": {
+        "title": "Išvykimas"
       }
     },
     "faq": {
@@ -103,23 +110,23 @@
       },
       "question2": {
         "title": "Koks aprangos kodas?",
-        "answer": "Oficiali / kokteilinė apranga. Taip pat pasiimkite ką nors patogaus, jei planuojate mėgautis pirtimi ar sūkurine vonia sekantį rytą."
+        "answer": "Oficialus / kokteilinis stilius. Taip pat pasiimkite ką nors patogaus, jei planuojate mėgautis pirtimi ar sūkurine vonia sekantį rytą."
       },
       "question3": {
         "title": "Ar vakarėlis vyks lauke?",
-        "answer": "Vakarėlis vyks viduje, bet aplink bus daug žalios erdvės. Galbūt norėsite pasiimti lengvą striukę – juk spalis!"
+        "answer": "Vakarėlis vyks viduje, bet aplink bus terasa ir nemažai erdvės. Galbūt norėsite pasiimti striukę – vis gi spalis!"
       },
       "question4": {
         "title": "Ar vaikai gali dalyvauti ceremonijoje ir vakarėlyje?",
-        "answer": "Žinoma! Tačiau suprantame, kad vaikų miego laikas svarbus, todėl tėvai kviečiami pasiimti vaikus po vestuvių torto 22:00."
+        "answer": "Žinoma! Tačiau suprantame, kad vaikų miego laikas yra svarbus ir tėvai norės atsipalaiduoti, todėl siūlome paprašyti kitų šeimos narių vaikus pasiimti po torto pjaustymo 22:00 val."
       },
       "question5": {
         "title": "Ar galima fotografuoti ceremonijos ir vakarėlio metu?",
-        "answer": "Taip, galite fiksuoti visas laimingas akimirkas. Taip pat bus profesionalus fotografas, o nuotraukomis pasidalinsime po vestuvių."
+        "answer": "Taip, galite įamžinti visas laimingas akimirkas. Taip pat bus profesionalus fotografas, o nuotraukomis pasidalinsime po vestuvių."
       },
       "question6": {
         "title": "Ar bus vakarėlis...po vakarėlio?",
-        "answer": "Taip! Po oficialios vakarienės, torto ir šokių svečiai galės mėgautis pirtimi ir sūkurine vonia sekantį rytą."
+        "answer": "Taip! Po oficialios vakarienės, torto ir šokių svečiai galės mėgautis pirtimi ir sūkurine vonia sekantį rytą iki 13:00 val."
       },
       "question7": {
         "title": "Ar bus automobilių stovėjimo aikštelė?",

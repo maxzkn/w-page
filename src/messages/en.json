@@ -24,7 +24,7 @@
       "ceremony": {
         "title": "The Ceremony",
         "location": "Palace of Weddings",
-        "address1": "K. Kalinausko g. 21",
+        "address1": "K. Kalinausko st. 21",
         "address2": "Vilnius, Lithuania"
       },
       "photoshoot": {
@@ -54,8 +54,8 @@
     "ourStory": {
       "title": "Our Story",
       "howWeMet": {
-        "title": "How we met",
-        "text": "We met in high school - he was smitten but shy (very shy), she was unconvinced. He stayed persistent (and mildly annoying), until she finally saw what all the fuss was about. Turns out, the friend zone has a back door... and it leads to forever."
+        "title": "How it started",
+        "text": "They met in high school - he was smitten but shy (very shy), she was unconvinced. He stayed persistent (and mildly annoying), until she finally saw what all the fuss was about. Turns out, the friend zone has a back door... and it leads to forever."
       },
       "firstKiss": {
         "title": "The first kiss",
@@ -63,7 +63,7 @@
       },
       "proposal": {
         "title": "The proposal",
-        "text": "She surprised him with a birthday trip to Amsterdam - and somewhere between space cakes (never again) and tulip fields (missed opportunity), he carried a ring, waiting for the right moment. After a mildly traumatic misadventure, tulips were off the table. One day later, we went for a walk that led them to the Magere Brug. He nervously stalled by the bridge, then dropped to one knee. Emotionally stunned, she dropped too, embracing him. Neither of them remember what he said, just that she definitely said yes. A surreal, slightly chaotic, very 'them' kind of moment. It wasn't picture-perfect, but they've got forever to keep getting it wonderfully right. Every single day.",
+        "text": "She surprised him with a birthday trip to Amsterdam - and somewhere between space cakes (never again) and tulip fields (missed opportunity), he carried a ring, waiting for the right moment. After a mildly traumatic misadventure, tulips were off the table. One day later, they went for a walk that led them to the Magere Brug. He nervously stalled by the bridge, then dropped to one knee. Emotionally stunned, she dropped too, embracing him. Neither of them remember what he said, just that she definitely said yes. A surreal, slightly chaotic, very 'them' kind of moment. It wasn't picture-perfect, but they've got forever to keep getting it wonderfully right. Every single day.",
         "caption": "The Proposal, Magere Brug, Amsterdam, 16 May 2022"
       }
     },
@@ -71,28 +71,35 @@
       "title": "What we have planned for you",
       "ceremony": {
         "title": "The Ceremony",
-        "text": "Followed by brief reception at the palace entrance"
+        "text": "Followed by brief reception at the palace entrance (weather permitting)"
       },
       "photoshoot": {
         "title": "The Wedding Photoshoot",
-        "text1": "A fun celebratory ride in the city with champagne and sparkles",
-        "text2": "You will have the opportunity to take photos in multiple locations"
+        "text1": "A fun celebratory ride in the city with drinks available",
+        "text2": "You will have the opportunity to take photos in a number of iconic locations"
       },
       "party": {
         "title": "The Wedding Party",
-        "text1": "Arrival at Villa xxx and welcome reception",
+        "text1": "Arrival at VillaTop and welcome reception",
         "text2": "Guests congratulate the newlyweds",
         "text3": "Dinner, dancing and fun activities"
       },
       "cake": {
-        "title": "The WeddingCake",
+        "title": "The Wedding Cake",
         "text": "A moment to sweeten your life"
       },
       "partyClose": {
-        "title": "Formal party close",
-        "text1": "Guests are welcome to stay for sauna and jacuzzi activity",
-        "text2": "Option to stay overnight",
-        "text3": "For those willing to go home transportation will be provided (please confirm your preference in advance)"
+        "title": "Formal Party Closing",
+        "text1": "Dancing and drinks available through the night",
+        "text2": "Option to stay overnight (please confirm in advance) or leave (taxi service available)"
+      },
+      "morningAfter": {
+        "title": "Morning After",
+        "text1": "Breakfast will be served, followed by Sauna and Jacuzzi",
+        "text2": "Those who left are welcome to rejoin in the morning (please confirm in advance)"
+      },
+      "departure": {
+        "title": "Departure"
       }
     },
     "faq": {

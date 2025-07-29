@@ -19,7 +19,7 @@ export const Plans = () => {
       <div className="grid grid-cols-[auto_1px_1fr] gap-8 max-w-2xl mx-auto">
         {/* Row 1 */}
         <div className="text-right">13:30</div>
-        <div className="row-span-5 w-px bg-white opacity-80" />
+        <div className="row-span-7 w-px bg-white opacity-80" />
         <div className="text-left">
           <div className="font-bold">{t('plans.ceremony.title')}</div>
           <div className="text-main">{t('plans.ceremony.text')}</div>
@@ -64,9 +64,24 @@ export const Plans = () => {
             {t('plans.partyClose.text1')}
             <br />
             {t('plans.partyClose.text2')}
-            <br />
-            {t('plans.partyClose.text3')}
           </div>
+        </div>
+        {/* Row 6 */}
+        <div className="text-right">09:00</div>
+        {/* Empty cell for divider */}
+        <div className="text-left">
+          <div className="font-bold">{t('plans.morningAfter.title')}</div>
+          <div className="text-main">
+            {t('plans.morningAfter.text1')}
+            <br />
+            {t('plans.morningAfter.text2')}
+          </div>
+        </div>
+        {/* Row 7 */}
+        <div className="text-right">13:00</div>
+        {/* Empty cell for divider */}
+        <div className="text-left">
+          <div className="font-bold">{t('plans.departure.title')}</div>
         </div>
       </div>
     </motion.section>
