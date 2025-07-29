@@ -17,7 +17,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
   return (
     <>
       <Hero locale={locale} />
-      <main className="custom-container">
+      {/* <main className="custom-container">
         <OurWedding />
         <Information />
         <WeddingGifts />
@@ -28,7 +28,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
         <WeddingGallery />
         <MapComponent />
         <Footer />
-      </main>
+      </main> */}
     </>
   );
 }

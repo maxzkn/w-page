@@ -20,7 +20,8 @@
       "photoshoot": {
         "title": "The Wedding Photoshoot",
         "text1": "A celebratory ride around the city",
-        "text2": "with bubbles and smiles"
+        "text2": "with bubbles and smiles",
+        "text3": "to capture moments in iconic locations"
       },
       "party": {
         "title": "The Wedding Party",
@@ -44,15 +45,15 @@
       "title": "Our Story",
       "howWeMet": {
         "title": "How we met",
-        "text": "They met in high school - he was smitten but shy (very shy), she was unconvinced. He stayed persistent (and mildly annoying), until she finally saw what all the fuss was about. Turns out, the friend zone has a back door... and it leads to forever."
+        "text": "We met in high school - he was smitten but shy (very shy), she was unconvinced. He stayed persistent (and mildly annoying), until she finally saw what all the fuss was about. Turns out, the friend zone has a back door... and it leads to forever."
       },
       "firstKiss": {
         "title": "The first kiss",
-        "text": "Their first kiss wasn't planned - it happened at a bus stop, somewhere between 'see you later' and something more ((but let's not give away all the details - some things are better left off the internet!). As she walked away, she turned and caught him mid-air, jumping of joy. He then cracked open a tiny whiskey bottle she'd given him for his birthday, and toasted the greatest moment of his teenage life. Just him, the sunset, and the start of something unforgettable. Oscar-worthy, honestly."
+        "text": "The first kiss wasn't planned - it happened at a bus stop, somewhere between 'see you later' and something more (but let's not give away all the details - some things are better left off the internet!). As she walked away, she turned and caught him mid-air, jumping of joy. He then cracked open a tiny whiskey bottle she'd given him for his birthday, and toasted the greatest moment of his teenage life. Just him, the sunset, and the start of something unforgettable. Oscar-worthy, honestly."
       },
       "proposal": {
         "title": "The proposal",
-        "text": "She surprised him with a birthday trip to Amsterdam - and somewhere between space cakes (never again) and tulip fields (missed opportunity), he carried a ring, waiting for the right moment. After a mildly traumatic misadventure, tulips were off the table. One day later, they went for a walk that led them to the Magere Brug. He nervously stalled by the bridge, then dropped to one knee. Emotionally stunned, she dropped too, embracing him. Neither of them remember what he said, just that she definitely said yes. A surreal, slightly chaotic, very 'them' kind of moment. It wasn't picture-perfect, but they've got forever to keep getting it wonderfully right. Every single day.",
+        "text": "She surprised him with a birthday trip to Amsterdam - and somewhere between space cakes (never again) and tulip fields (missed opportunity), he carried a ring, waiting for the right moment. After a mildly traumatic misadventure, tulips were off the table. One day later, we went for a walk that led them to the Magere Brug. He nervously stalled by the bridge, then dropped to one knee. Emotionally stunned, she dropped too, embracing him. Neither of them remember what he said, just that she definitely said yes. A surreal, slightly chaotic, very 'them' kind of moment. It wasn't picture-perfect, but they've got forever to keep getting it wonderfully right. Every single day.",
         "caption": "The Proposal, Magere Brug, Amsterdam, 16 May 2022"
       }
     },

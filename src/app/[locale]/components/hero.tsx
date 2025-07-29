@@ -15,8 +15,8 @@ export const Hero = ({ locale }: { locale: string }) => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent" />
       <HeroNavigation locale={locale} />
       <div className="relative z-10 flex flex-col items-center justify-center w-full h-full text-center">
-        <Logo />
-        <Countdown />
+        {/* <Logo /> */}
+        {/* <Countdown /> */}
       </div>
     </section>
   );

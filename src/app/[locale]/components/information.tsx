@@ -7,7 +7,7 @@ import { Link } from '@/i18n/navigation';
 export const Information = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-50px' });
   return (
     <motion.div
       ref={ref}
@@ -28,6 +28,7 @@ export const Information = () => {
         <p className="text-main mb-2">14:30</p>
         <p>{t('information.photoshoot.text1')}</p>
         <p>{t('information.photoshoot.text2')}</p>
+        <p>{t('information.photoshoot.text3')}</p>
       </div>
       <div className="flex flex-col gap-2 items-center justify-center">
         <p className="text-main uppercase">{t('information.party.title')}</p>

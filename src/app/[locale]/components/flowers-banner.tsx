@@ -6,7 +6,7 @@ import { useRef, useEffect, useState } from 'react';
 export const FlowersBanner = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-50px' });
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     setIsMobile(
