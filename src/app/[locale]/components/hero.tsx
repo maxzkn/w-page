@@ -3,25 +3,43 @@ import { Countdown } from './countdown';
 import { HeroNavigation } from './hero-navigation';
 import { Logo } from './logo';
 import { useIsMobile } from '@/app/hooks/useIsMobile';
-import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export const Hero = ({ locale }: { locale: string }) => {
   const isMobile = useIsMobile();
+  const [initialViewportHeight, setInitialViewportHeight] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (isMobile) {
+      // Capture the initial viewport height and never change it
+      const height = window.innerHeight;
+      setInitialViewportHeight(height);
+
+      // Set CSS custom property for stable height
+      document.documentElement.style.setProperty('--initial-vh', `${height}px`);
+    }
+  }, [isMobile]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      className="relative flex items-center justify-center overflow-hidden hero-section"
+      style={{
+        minHeight: isMobile && initialViewportHeight ? `${initialViewportHeight}px` : '100vh',
+      }}
+    >
       {isMobile ? (
-        // Mobile: Use Next.js Image component
-        <div className="absolute inset-0 w-full h-full z-0">
-          <Image
-            src="/hero.webp"
-            alt="Hero background"
-            fill
-            priority
-            className="object-cover grayscale"
-            sizes="100vw"
-          />
-        </div>
+        // Mobile: Use initial viewport height to prevent zoom issues
+        <div
+          className="absolute inset-0 w-full z-0"
+          style={{
+            backgroundImage: 'url(/hero.webp)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            filter: 'grayscale(1)',
+            height: initialViewportHeight ? `${initialViewportHeight}px` : '100vh',
+          }}
+        />
       ) : (
         // Desktop: Use background image with parallax
         <div

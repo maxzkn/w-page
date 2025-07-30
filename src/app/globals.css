@@ -26,6 +26,17 @@
       min-height: -webkit-fill-available;
     }
   }
+  
+  /* Handle mobile viewport height changes */
+  @media screen and (max-width: 768px) {
+    :root {
+      --vh: 1vh;
+    }
+    
+    .mobile-stable-height {
+      height: calc(var(--vh, 1vh) * 100) !important;
+    }
+  }
 
   ::selection {
     color: black;
@@ -88,6 +99,61 @@
   @supports (padding: max(0px)) {
     .safe-top {
       padding-top: max(1rem, env(safe-area-inset-top));
+    }
+  }
+  
+  /* Mobile-specific fixes for fixed backgrounds */
+  @media screen and (max-width: 768px) {
+    /* Prevent zoom on mobile browsers including Google app */
+    html {
+      -webkit-text-size-adjust: none;
+      -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+    
+    /* Prevent Google app zoom issues */
+    body {
+      -webkit-overflow-scrolling: touch;
+      overflow-x: hidden;
+      /* Prevent zoom gestures in Google app */
+      touch-action: pan-x pan-y;
+    }
+    
+    /* Prevent zoom on images in Google app */
+    img {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      /* Prevent pinch zoom on images */
+      touch-action: manipulation;
+    }
+    
+    /* Specific fix for Google app on iPhone */
+    @supports (-webkit-touch-callout: none) {
+      body {
+        /* iOS Safari and Google app specific */
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+      }
+    }
+    
+    /* Ensure hero section background stays fixed */
+    .hero-section {
+      position: relative;
+      z-index: 1;
+    }
+    
+    /* Stable background for mobile that doesn't change with viewport */
+    .mobile-stable-bg {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100vh !important;
+      z-index: 0 !important;
+      background-attachment: scroll !important; /* Prevent fixed attachment */
     }
   }
 }
