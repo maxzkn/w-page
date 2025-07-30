@@ -15,7 +15,7 @@ export const OurStory = () => {
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
     >
-      <div className="flex flex-col gap-12 text-center sm:text-left xl:justify-around xl:items-center xl:flex-row py-20 md:py-40">
+      <div className="flex flex-col gap-12 text-center sm:text-left xl:justify-around xl:items-center xl:flex-row py-20 lg:py-40">
         <div className="flex flex-col gap-10 xl:w-1/3">
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-3">

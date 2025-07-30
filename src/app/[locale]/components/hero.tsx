@@ -25,7 +25,7 @@ export const Hero = ({ locale }: { locale: string }) => {
       ) : (
         // Desktop: Use background image with parallax
         <div
-          className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed lg:bg-auto lg:bg-[position:unset]"
+          className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed lg:bg-auto lg:bg-[position:20%_15%]"
           style={{
             backgroundImage: 'url(/hero.webp)',
             filter: 'grayscale(1)',

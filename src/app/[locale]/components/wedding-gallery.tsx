@@ -27,7 +27,7 @@ export const WeddingGallery = () => {
           {t('gallery.button')}
         </h2>
       </div>
-      <div className="flex flex-col gap-8 py-20 md:py-40 items-center text-main">
+      <div className="flex flex-col gap-8 py-20 lg:py-40 items-center text-main">
         <p>{t('gallery.text')}</p>
       </div>
     </motion.div>

@@ -13,7 +13,7 @@ export const Plans = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="mx-auto py-20 md:py-40 text-center bg-black text-white full-width-child px-5"
+      className="mx-auto py-20 lg:py-40 text-center bg-black text-white full-width-child px-5"
     >
       <h2 className="text-headline md:text-banner mb-12 uppercase">{t('plans.title')}</h2>
       <div className="grid grid-cols-[auto_1px_1fr] gap-8 max-w-2xl mx-auto">

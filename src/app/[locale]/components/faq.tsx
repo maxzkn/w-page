@@ -19,7 +19,7 @@ export const FAQ = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="py-20 md:py-40 px-5 flex items-center flex-col gap-4"
+      className="py-20 lg:py-40 px-5 flex items-center flex-col gap-4"
     >
       <div className="text-headline md:text-banner mb-6 uppercase">{t('faq.title')}</div>
       <div className="w-full max-w-4xl">

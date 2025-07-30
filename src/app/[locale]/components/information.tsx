@@ -14,7 +14,7 @@ export const Information = () => {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
-      className="flex flex-wrap items-baseline text-center gap-20 md:gap-40 justify-center px-8 py-20 md:py-40 bg-black full-width-child text-white text-main"
+      className="flex flex-col items-center justify-center text-center gap-20 lg:flex-row lg:items-baseline lg:gap-40 px-8 py-20 lg:py-40 bg-black full-width-child text-white text-main"
     >
       <div className="flex flex-col gap-2 items-center justify-center">
         <p className="text-main uppercase">{t('information.ceremony.title')}</p>
