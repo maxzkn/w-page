@@ -39,8 +39,8 @@ export function LanguageSwitcher({
 
 export const HeroNavigation = ({ locale }: { locale: string }) => {
   return (
-    <div className="absolute top-4 sm:top-8 right-4 sm:right-10 z-20 flex items-center gap-3 safe-top">
-      <ViewGalleryButton className="inline-block px-1 py-1 text-main text-white border-b border-transparent hover:border-white transition uppercase" />
+    <div className="absolute top-4 sm:top-8 right-4 sm:right-10 z-20 flex items-center gap-5 safe-top px-5">
+      <ViewGalleryButton className="inline-block px-1 py-1 text-sm text-white border-b border-transparent hover:border-white transition uppercase" />
       <LanguageSwitcher currentLocale={locale} />
     </div>
   );
