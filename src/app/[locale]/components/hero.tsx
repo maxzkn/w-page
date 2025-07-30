@@ -3,20 +3,35 @@ import { Countdown } from './countdown';
 import { HeroNavigation } from './hero-navigation';
 import { Logo } from './logo';
 import { useIsMobile } from '@/app/hooks/useIsMobile';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 export const Hero = ({ locale }: { locale: string }) => {
   const isMobile = useIsMobile();
-  const [initialViewportHeight, setInitialViewportHeight] = useState<number | null>(null);
+
+  useEffect(() => {
+    // Scroll to top when component mounts (after login)
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     if (isMobile) {
-      // Capture the initial viewport height and never change it
-      const height = window.innerHeight;
-      setInitialViewportHeight(height);
+      // Set a stable viewport height that doesn't change with browser UI
+      const setStableViewportHeight = () => {
+        // Use the larger of current height or a minimum height
+        const currentHeight = window.innerHeight;
+        const minHeight = Math.max(currentHeight, 600); // Minimum height
+        document.documentElement.style.setProperty('--stable-vh', `${minHeight}px`);
+      };
 
-      // Set CSS custom property for stable height
-      document.documentElement.style.setProperty('--initial-vh', `${height}px`);
+      // Set initial height
+      setStableViewportHeight();
+
+      // Update on orientation change
+      window.addEventListener('orientationchange', setStableViewportHeight);
+
+      return () => {
+        window.removeEventListener('orientationchange', setStableViewportHeight);
+      };
     }
   }, [isMobile]);
 
@@ -24,7 +39,8 @@ export const Hero = ({ locale }: { locale: string }) => {
     <section
       className="relative flex items-center justify-center overflow-hidden hero-section"
       style={{
-        minHeight: isMobile && initialViewportHeight ? `${initialViewportHeight}px` : '100vh',
+        minHeight: isMobile ? 'var(--stable-vh, 100vh)' : '100vh',
+        height: isMobile ? 'var(--stable-vh, 100vh)' : '100vh',
       }}
     >
       {isMobile ? (
@@ -37,7 +53,7 @@ export const Hero = ({ locale }: { locale: string }) => {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             filter: 'grayscale(1)',
-            height: initialViewportHeight ? `${initialViewportHeight}px` : '100vh',
+            height: isMobile ? 'var(--stable-vh, 100vh)' : '100vh',
           }}
         />
       ) : (
