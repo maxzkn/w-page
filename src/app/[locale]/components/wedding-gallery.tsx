@@ -7,7 +7,7 @@ import Image from 'next/image';
 export const WeddingGallery = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-50px' });
   return (
     <motion.div
       id="wedding-gallery"

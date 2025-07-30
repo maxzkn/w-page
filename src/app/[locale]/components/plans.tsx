@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 export const Plans = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { once: true, margin: '-50px' });
   return (
     <motion.section
       ref={ref}
