@@ -68,7 +68,7 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
         localStorage.removeItem('wedding-session-expires');
         setIsAuthenticated(false);
       }
-    } catch (error) {
+    } catch {
       // Network error, assume not authenticated
       setIsAuthenticated(false);
     } finally {

@@ -42,7 +42,7 @@ export function Login({ onLoginSuccess, locale }: LoginProps) {
       } else {
         setError(t('error'));
       }
-    } catch (err) {
+    } catch {
       setError(t('networkError'));
     } finally {
       setIsLoading(false);
