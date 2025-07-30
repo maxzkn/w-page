@@ -47,7 +47,7 @@ export const OurStory = () => {
             className="grayscale w-full xl:w-[700px] mx-auto"
           />
           <figcaption className="mt-2 text-main text-gray-500">
-            <p>The Proposal, Magere Brug, Amsterdam, 16 May 2022</p>
+            <p className="text-main">{t('ourStory.proposal.caption')}</p>
           </figcaption>
         </figure>
       </div>

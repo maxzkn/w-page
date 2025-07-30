@@ -63,7 +63,7 @@
       },
       "proposal": {
         "title": "Piršlybos",
-        "text": "Ji nustebino jį gimtadienio kelione į Amsterdamą – ir kažkur tarp pyragėlių (daugiau niekada) ir tulpynų (praleista proga), jis nešiojosi žiedą, laukdamas tinkamo momento. Po nesėkmingos patirties su keksais, tulpės atkrito. Kitą dieną jie vaikščiojo ir atsidūrė prie Magere Brug. Jis nervingai delsė ant tilto, tada priklaupė ant kelio. Ji, nustebus, taip pat priklaupė ir apkabino jį. Nė vienas neprisimena, ką jis sakė, tik kad ji tikrai pasakė „taip“. Tai buvo chaotiška, bet akimirka jų stiliuje. Ne tobula, bet jie turi visą gyvenimą, kad viską darytų nuostabiai kartu.",
+        "text": "Ji nustebino jį gimtadienio kelione į Amsterdamą – ir kažkur tarp pyragėlių (daugiau niekada) ir tulpynų (praleista proga), jis nešiojosi žiedą, laukdamas tinkamo momento. Po nesėkmingos patirties su pyragėliais, tulpės atkrito. Kitą dieną jie vaikščiojo ir atsidūrė prie Magere Brug. Jis nervingai delsė ant tilto, tada priklaupė ant kelio. Ji, nustebus, taip pat priklaupė ir apkabino jį. Nė vienas neprisimena, ką jis sakė, tik kad ji tikrai pasakė „taip“. Tai buvo chaotiška, bet akimirka jų stiliuje. Ne tobula, bet jie turi visą gyvenimą, kad viską darytų nuostabiai kartu.",
         "caption": "Piršlybos, Magere Brug, Amsterdamas, Gegužės 16 d., 2022"
       }
     },
@@ -71,7 +71,7 @@
       "title": "Ką jums suplanavome",
       "ceremony": {
         "title": "Ceremonija",
-        "text": "Po ceremonijos kviečiame trumpai šampano pertraukai (priklauso nuo oro)"
+        "text": "Po ceremonijos kviečiame trumpai šampano pertraukai lauke (priklauso nuo oro)"
       },
       "photoshoot": {
         "title": "Vestuvių fotosesija",
@@ -80,8 +80,8 @@
       },
       "party": {
         "title": "Vestuvių vakarėlis",
-        "text1": "Atvykimas į vilą ir svečių priėmimas",
-        "text2": "Svečiai sveikina jaunavedžius",
+        "text1": "Atvykimas į vilą",
+        "text2": "Svečiai pasitinka ir sveikina jaunavedžius",
         "text3": "Vakarienė, šokiai ir linksmybės"
       },
       "cake": {
@@ -114,7 +114,7 @@
       },
       "question3": {
         "title": "Ar vakarėlis vyks lauke?",
-        "answer": "Vakarėlis vyks viduje, bet aplink bus terasa ir nemažai erdvės. Galbūt norėsite pasiimti striukę – vis gi spalis!"
+        "answer": "Vakarėlis vyks viduje, bet aplink bus terasa ir nemažai erdvės. Galbūt norėsite pasiimti striukę – visgi spalis!"
       },
       "question4": {
         "title": "Ar vaikai gali dalyvauti ceremonijoje ir vakarėlyje?",
