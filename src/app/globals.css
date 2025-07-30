@@ -60,6 +60,19 @@
     @apply flex-1 border-b border-dashed border-slate-400;
   }
 
+  /* Accordion width fixes */
+  [data-radix-accordion-item] {
+    width: 100%;
+  }
+
+  [data-radix-accordion-trigger] {
+    width: 100%;
+  }
+
+  [data-radix-accordion-content] {
+    width: 100%;
+  }
+
   /* Video autoplay improvements for mobile */
   video {
     -webkit-playsinline: true;

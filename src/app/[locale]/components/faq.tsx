@@ -22,7 +22,7 @@ export const FAQ = () => {
       className="py-20 md:py-40 px-5 flex items-center flex-col gap-4"
     >
       <div className="text-headline md:text-banner mb-6 uppercase">{t('faq.title')}</div>
-      <div className="max-w-xl">
+      <div className="w-full max-w-4xl">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
             <AccordionTrigger>{t('faq.question1.title')}</AccordionTrigger>

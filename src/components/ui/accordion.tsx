@@ -13,7 +13,7 @@ const AccordionItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AccordionPrimitive.Item
     ref={ref}
-    className={cn('border-t last:border-b', className)}
+    className={cn('border-t last:border-b w-full', className)}
     {...props}
   />
 ));
@@ -23,18 +23,18 @@ const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
 >(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex">
+  <AccordionPrimitive.Header className="flex w-full">
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        'flex flex-1 items-center justify-between py-4 font-bold transition-all text-left group [&[data-state=open]>svg]:rotate-0',
+        'flex flex-1 items-center justify-between py-4 font-bold transition-all text-left group w-full [&[data-state=open]>svg]:rotate-0',
         className
       )}
       {...props}
     >
       {children}
       {/* Plus to minus icon logic */}
-      <span className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 flex items-center justify-center">
+      <span className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 flex items-center justify-center ml-4">
         <svg
           className="plus-minus-icon"
           width="16"
@@ -66,10 +66,10 @@ const AccordionContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
     ref={ref}
-    className="overflow-hidden text-main font-semibold data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    className="overflow-hidden text-main font-semibold data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down w-full"
     {...props}
   >
-    <div className={cn('pb-4 pt-0', className)}>{children}</div>
+    <div className={cn('pb-4 pt-0 w-full', className)}>{children}</div>
   </AccordionPrimitive.Content>
 ));
 AccordionContent.displayName = AccordionPrimitive.Content.displayName;
