@@ -16,7 +16,7 @@ export const OurWedding = () => {
       className="max-w-2xl mx-auto py-20 lg:py-40 px-4 sm:px-0 text-center"
     >
       <h2 className="text-headline md:text-banner mb-6 uppercase">{t('ourWedding.title')}</h2>
-      <p className="text-lg font-secondary sm:text-main">{t('ourWedding.date')}</p>
+      <p className="text-lg font-primary sm:text-headline">{t('ourWedding.date')}</p>
     </motion.section>
   );
 };
