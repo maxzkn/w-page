@@ -12,24 +12,29 @@ import { Plans } from './components/plans';
 import { WeddingGallery } from './components/wedding-gallery';
 import { MapComponent } from '@/components/map';
 import { PasswordProtection } from './components/password-protection';
+import { ScrollToTop } from '../../components/scroll-to-top';
 
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
   return (
-    <PasswordProtection locale={locale}>
-      <Hero locale={locale} />
-      <main className="custom-container">
-        <OurWedding />
-        <Information />
-        <WeddingGifts />
-        <FlowersBanner />
-        <OurStory />
-        <Plans />
-        <FAQ />
-        <WeddingGallery />
-        <MapComponent />
-        <Footer />
-      </main>
-    </PasswordProtection>
+    <>
+      <PasswordProtection locale={locale}>
+        <div id="top"></div>
+        <Hero locale={locale} />
+        <main className="custom-container">
+          <OurWedding />
+          <Information />
+          <WeddingGifts />
+          <FlowersBanner />
+          <OurStory />
+          <Plans />
+          <FAQ />
+          <WeddingGallery />
+          <MapComponent />
+          <Footer />
+        </main>
+        <ScrollToTop />
+      </PasswordProtection>
+    </>
   );
 }
