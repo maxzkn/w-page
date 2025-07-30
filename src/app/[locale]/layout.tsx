@@ -34,6 +34,7 @@ export default function LocaleLayout({
     notFound();
   }
   setRequestLocale(locale);
+
   return (
     <html lang={locale}>
       <head>
