@@ -21,6 +21,13 @@
     overflow-x: hidden;
   }
 
+  /* Mobile viewport height fix */
+  @supports (-webkit-touch-callout: none) {
+    .min-h-screen {
+      min-height: -webkit-fill-available;
+    }
+  }
+
   ::selection {
     color: black;
     background: pink;
@@ -51,5 +58,24 @@
 
   .divider {
     @apply flex-1 border-b border-dashed border-slate-400;
+  }
+
+  /* Video autoplay improvements for mobile */
+  video {
+    -webkit-playsinline: true;
+    -webkit-video-playable-inline: true;
+    -webkit-media-controls: none;
+  }
+
+  /* Mobile safe area handling */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  /* Ensure navigation is always visible on mobile */
+  @supports (padding: max(0px)) {
+    .safe-top {
+      padding-top: max(1rem, env(safe-area-inset-top));
+    }
   }
 }
