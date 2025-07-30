@@ -7,8 +7,8 @@ export const FlowersBanner = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-50px' });
   const [isMobile, setIsMobile] = useState(false);
+  const isInView = useInView(ref, { once: true, margin: isMobile ? '-50px' : '-80px' });
   const [hasUserInteracted, setHasUserInteracted] = useState(false);
   const [videoLoaded, setVideoLoaded] = useState(false);
 

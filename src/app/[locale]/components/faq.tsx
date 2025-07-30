@@ -8,11 +8,13 @@ import {
 } from '@/components/ui/accordion';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
+import { useIsMobile } from '@/app/hooks/useIsMobile';
 
 export const FAQ = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isMobile = useIsMobile();
+  const isInView = useInView(ref, { once: true, margin: isMobile ? '-50px' : '-80px' });
   return (
     <motion.div
       ref={ref}

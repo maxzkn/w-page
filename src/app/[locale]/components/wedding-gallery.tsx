@@ -3,11 +3,12 @@ import { motion, useInView } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
 import Image from 'next/image';
-
+import { useIsMobile } from '@/app/hooks/useIsMobile';
 export const WeddingGallery = () => {
   const t = useTranslations('Home');
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-50px' });
+  const isMobile = useIsMobile();
+  const isInView = useInView(ref, { once: true, margin: isMobile ? '-50px' : '-80px' });
   return (
     <motion.div
       id="wedding-gallery"
