@@ -20,9 +20,9 @@ export function PasswordProtection({ children, locale }: PasswordProtectionProps
     // if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
     setIsAuthenticated(true);
     setIsLoading(false);
-    // } else {
-    //   validateSession();
-    // }
+    } else {
+      validateSession();
+    }
   }, []);
 
   const validateSession = async () => {
